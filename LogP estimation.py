@@ -1,0 +1,8 @@
+c_contrib = float(input("What is the atomic contribution per aromatic carbon?"))
+o_contrib = float(input("What is the atomic contribution per aromatic oxygen?"))
+n_carbons= float(input("What is the number of carbon atoms?"))
+n_oxygen= float(input("What is the number of oxygen atoms?"))
+logP_estimate = (n_carbons*c_contrib)+(n_oxygen*o_contrib)
+print(f"Estimated logP: {round(logP_estimate, 4)}")
+print(f"Literature value: -1.19")
+print(f"Difference: {abs(logP_estimate-1.19):.4f}")

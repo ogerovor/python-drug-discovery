@@ -12,5 +12,5 @@ A collection of command line calculators for drug discovery, built while learnin
 ## How to Run
 ```bash
 python drug_dose_calculator.py
-Author
-Ogerovor Joy Ben - PhD student,Lead City University, 2026
+##Author
+##Ogerovor Joy Ben - PhD student,Lead City University, 2026
